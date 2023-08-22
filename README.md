@@ -1,42 +1,26 @@
 # Constitution-Xpert
 
 # Constitution Xpert Chatbot
-This chatbot is built using transformers and is trained on a dataset of text and code related to the US Constitution. It can answer questions about the Constitution, provide summaries of constitutional provisions, and generate legal arguments.
+This chatbot is built using and is trained on a dataset of text and code related to the US Constitution. It can answer questions about the Constitution, provide summaries of constitutional provisions, and generate legal arguments.
 
 Setup
 To install the chatbot, you will need to have the following dependencies installed:
 
 Anaconda or Miniconda Package Manager
 Python 3.6+
-Transformers
-Simpletransformers
-You can install the dependencies by running the following commands:
+langchain
+openai   
+tiktoken 
+pypdf 
+unstructured[local-inference] 
+pinecone-client
+gradio 
 
-conda create -n transformers python
-conda activate transformers
-pip install simpletransformers
-
-Training
-To train the chatbot, you will need to provide a dataset of text and code related to the Constitution. You can find a dataset of constitutional text and code here: https://www.law.cornell.edu/constitution/.
-
-Once you have the dataset, you can train the chatbot by running the following command:
-
-python train.py --model_name_or_path bert-base-uncased --dataset_name constitution --output_dir ./models
-
-
-This will train the chatbot for 10 epochs and save the model to the `./models` directory.
-
-## Usage
-
-To use the chatbot, you can run the following command:
-
-python chat.py
-
-This will start a conversation with the chatbot. You can ask the chatbot questions about the Constitution, and it will try to answer your questions in a comprehensive and informative way.
+The "Constitution of India Question Answering System" is an innovative project that aims to create an intelligent and eﬃcient platform for answering user queries related to the Constitution of India. The project leverages advanced techniques in natural language processing, data handling, and knowledge retrieval to provide accurate and contextually relevant answers to users' questions.
 
 Example
 The following is an example of a conversation with the chatbot:
 
-User: What is the First Amendment?
-Chatbot: The First Amendment to the United States Constitution prohibits the government from establishing a state religion, infringing on the freedom of speech, infringing on the freedom of the press, infringing on the freedom of assembly, and infringing on the right to petition the government for a redress of grievances.
+User: "What are fundamental rights"
+Chatbot: "Fundamental rights are the basic rights and freedoms that are guaranteed to all citizens of India by the Constitution of India. They are enshrined in Part III of the Constitution, and are divided into six categories: Right to Equality, Right to Freedom, Right against Exploitation, Right to Freedom of Religion, Cultural and Educational Rights, Right to Property, and Right to Constitutional Remedies."
 

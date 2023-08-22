@@ -1,7 +1,7 @@
 # Constitution-Xpert
 
 # Constitution Xpert Chatbot
-This chatbot is built using and is trained on a dataset of text and code related to the US Constitution. It can answer questions about the Constitution, provide summaries of constitutional provisions, and generate legal arguments.
+This chatbot is built using and is trained on a dataset of text and code related to the Constitution of India. It can answer questions about the Constitution, provide summaries of constitutional provisions, and generate legal arguments.
 
 Setup
 To install the chatbot, you will need to have the following dependencies installed:
@@ -16,7 +16,7 @@ unstructured[local-inference]
 pinecone-client
 gradio 
 
-The "Constitution of India Question Answering System" is an innovative project that aims to create an intelligent and eﬃcient platform for answering user queries related to the Constitution of India. The project leverages advanced techniques in natural language processing, data handling, and knowledge retrieval to provide accurate and contextually relevant answers to users' questions.
+The "Constitution Xpert" is an innovative project that aims to create an intelligent and eﬃcient platform for answering user queries related to the Constitution of India. The project leverages advanced techniques in natural language processing, data handling, and knowledge retrieval to provide accurate and contextually relevant answers to users' questions.
 
 Example
 The following is an example of a conversation with the chatbot:
